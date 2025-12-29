@@ -38,10 +38,15 @@ ________________________________________________________________________________
 Original emotion labels were consolidated into five emotion categories to reduce ambiguity and improve learning:
 
 Neutral ->	Neutral + Calm
+
 Happy	-> Happy + Surprise
+
 Sad	-> Sad + Fear
+
 Angry	-> Angry
+
 Disgust	-> Disgust
+
 
 This consolidation reflects similarities in vocal intensity and pitch patterns across emotions.
 ______________________________________________________________________________________
@@ -121,10 +126,15 @@ The model is trained multiple times, and the best-performing model is selected b
 
 
 Very low initial accuracy (~10%) -> Increased epochs and improved loss setup
+
 Model predicting a single emotion	-> Combined similar emotion categories
+
 Speaker leakage	-> Implemented actor-wise splits
+
 Slow image-based training	-> Switched from PNG images to .npy arrays
+
 Unstable training	-> Used pretrained ResNet-18 backbone
+
 ______________________________________________________________________________________
 
 **Results**
