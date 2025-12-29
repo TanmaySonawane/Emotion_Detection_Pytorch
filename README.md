@@ -1,8 +1,8 @@
-Multimodal Emotion Detection from Speech
+**Multimodal Emotion Detection from Speech**
 
 This project implements a multimodal emotion recognition system that classifies human emotions from speech audio using deep learning. The system processes raw audio files, extracts Mel-based representations, and trains a PyTorch model to predict emotional states. The focus of this project is learning and experimenting with CNN-based audio representations, model training behavior, and practical challenges in emotion classification.
 
-Project Motivation
+_Project Motivation_
 
 Human speech contains rich emotional information beyond spoken words. Automatically detecting emotions from audio has applications in areas such as:
 
@@ -16,7 +16,7 @@ Call-center analytics
 
 This project explores how audio representations and convolutional neural networks can be used to model emotional patterns in speech, and how architectural and data-related decisions impact model performance.
 
-Dataset
+_Dataset_
 
 The project primarily uses the Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) dataset.
 
