@@ -175,6 +175,7 @@ Potential extensions of this project include:
 ______________________________________________________________________________________
 
 **Project Structure**
+
 ├── preprocess_audio_to_mel.py   # Converts audio to Mel spectrogram arrays
 
 ├── basic_multimodal.py          # Multimodal PyTorch training script
