@@ -16,6 +16,9 @@ Call-center analytics
 
 This project explores how audio representations and convolutional neural networks can be used to model emotional patterns in speech, and how architectural and data-related decisions impact model performance.
 
+
+
+
 _Dataset_
 
 The project primarily uses the Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) dataset.
