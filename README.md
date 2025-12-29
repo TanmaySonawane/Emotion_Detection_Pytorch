@@ -174,23 +174,6 @@ Potential extensions of this project include:
     - Human–computer interaction research
 ______________________________________________________________________________________
 
-**Project Structure**
-
-├── preprocess_audio_to_mel.py   # Converts audio to Mel spectrogram arrays
-
-├── basic_multimodal.py          # Multimodal PyTorch training script
-
-├── data/
-
-│   ├── ravdess/
-
-│   └── mel_arrays/
-
-├── models/
-
-├── README.md
-
-______________________________________________________________________________________
 **Requirements**
 - Python 3.9+
 
